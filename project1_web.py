@@ -9,7 +9,7 @@ def parsing(path):
         train=[]
         para=""
         while True:
-            l = f.readline() #한줄씩 읽어 옵니다
+            l = f.readline()
 
             
             if l[:6]=='Pragma':
