@@ -1,6 +1,3 @@
-import pandas as pd
-import re
-import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score,f1_score
 from sklearn.neighbors import KNeighborsClassifier
